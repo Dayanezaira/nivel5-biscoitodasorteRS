@@ -1,0 +1,107 @@
+* {
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root {
+font-size: 62.5%;
+}
+body {
+    background-image: linear-gradient(45deg, #190361, #bb00ff);
+    height: 100vh;
+    display: flex;
+    place-items: center;
+}
+main {
+    border-radius: 0.6rem;
+    background: #FFF;
+    box-shadow: 0px 20px 50px 0px rgba(0, 0, 0, 0.80);
+    margin: auto;
+    padding: 4.8rem 6.4rem 6.4rem 6.4rem;
+}
+.page-1 {
+    padding: 0 1.8rem;
+}
+#cookie {
+    margin-left: 3rem;
+}
+h1, h3 {
+    color: #34355B;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+    margin-bottom: 1.4rem;
+}
+h2 {
+    color: #34355B;
+    text-align: center;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 400;
+    margin-bottom: 2.7rem;
+}
+p {
+    color: #000;
+    text-align: center;
+    font-family: 'Dancing Script', cursive;
+    font-size: 2.4rem;
+    font-weight: 400;
+    background: #E4EDF1;
+    box-shadow: 2px 2px 2px 0px rgba(85, 85, 85, 0.50);
+}
+.hiddenOn {
+    display: none !important;
+}
+.page-2 {
+    display: flex;
+    flex-direction: column;
+    place-items: center;
+    gap: 1.7rem;
+    width: 30rem;
+    height: 47rem;
+}
+#opened-cookie {
+    margin-top: 5rem;
+}
+button {
+    display: flex;
+    padding: 1.6rem;
+    align-items: center;
+    color: #FFF;
+    border: none;
+    border-radius: 0.5rem;
+    background: #FF9500;
+    margin-top: 4rem;
+}
+button:hover {
+    cursor: pointer;
+    background: #d0800f;
+}
+#cookie:hover {
+    cursor: pointer;
+    animation: shake 0.2s;
+    animation-iteration-count: 8;
+}
+@keyframes shake {
+    0% { transform: translateX(0); }
+    25% { transform: translateX(0.3rem); }
+    50% { transform: translateX(0); }
+    62.5% {transform: translate(0.3rem);}
+    75% { transform: translateX(-0.3rem); }
+    100% { transform: translateX(0); }
+}
+#phrases{
+    animation: luck 4s ease forwards;
+}
+@keyframes luck {
+    0% {
+        transform: translateY(100%) scale(0.2); 
+        opacity: 0; 
+    }
+    100% {
+        transform: translateY(0) scale(1); 
+        opacity: 1; 
+    }
+}
