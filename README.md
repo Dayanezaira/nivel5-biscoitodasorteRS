@@ -1,4 +1,4 @@
-# Uso do JavaScript | Curso Explorer
+# Uso do JavaScript
 
 ### Essa tarefa faz parte do curso Explorer da [Rocketseat](https://www.rocketseat.com.br).
 
