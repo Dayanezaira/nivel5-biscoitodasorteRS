@@ -1,4 +1,4 @@
-# Uso do Display Grid | Explorer Stage 3
+# Uso do JavaScript | Curso Explorer
 
 ### Essa tarefa faz parte do curso Explorer da [Rocketseat](https://www.rocketseat.com.br).
 
